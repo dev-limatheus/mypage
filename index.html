@@ -7,33 +7,83 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./biuld/styles/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header class="header">
         <nav class="header__nav">
-            <ul class="header__nav__lista">
-                <li class="header__nav__lista__item">
-                    <a class="header__nav__lista__item__link" href="#home">Home</a>
-                </li>
-                <li class="header__nav__lista__item">
-                    Projetos
-                </li>
-                <li class="header__nav__lista__item">
-
-                </li>
-            </ul>
+                <h1 class="header__nav__name">
+                    dev-limatheus
+                </h1>
+                <ul class="header__nav__lista">
+                    <li class="header__nav__lista__item">
+                        <a class="header__nav__lista__item__link" href="#home">Home</a>
+                    </li>
+                    <li class="header__nav__lista__item">
+                        <a class="header__nav__lista__item__link" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="header__nav__lista__item">
+                        <a class="header__nav__lista__item__link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="header__nav__lista__item">
+                        <a class="header__nav__lista__item__link" href="#contato">Contato</a>
+                    </li>
+                </ul>
         </nav>
     </header>
-    <section class="home" id="home">
-        <div class="container">
-            <div class="profile">
-                <img class="profile-img" src="https:placehold.co/90" alt="">
-                <h2 class="profile-name">Matheus Lima</h2>
-                <h3 class="profile-desc">Sobre (pronto para colar — versão curta) Sou desenvolvedor front-end em formação, focado em interfaces responsivas com HTML, CSS, JavaScript, jQuery e Bootstrap. Uso Node.js (npm), Gulp, Sass e Git para automatizar tarefas, organizar estilos e versionar código. Cursando Full Stack Java na EBAC desde o começo de 2025 e iniciando Análise e Desenvolvimento de Sistemas. Inglês básico. Colaborativo e proativo, busco minha primeira oportunidade (estágio/júnior) para contribuir com qualidade de código, acessibilidade e evolução contínua.</h3>
+    <div class="container">
+        <section class="home" id="home">
+            <div class="home__profile">
+                <img class="home__profile__foto" src="src/images/profilefoto.jpg" alt="">
+                <h1 class="home__profile__tittle">
+                    Matheus Lima
+                </h1>
+                <h2 class="home__profile__texto">
+                    Desenvolvedor Frontend focado em criar interfaces modernas, responsivas e centradas na experiência do usuário.                
+                </h2>
             </div>
-        </div>
-    </section>
+            <div class="home__redes">
+                <a class="home__redes__logo" target="_blank" href="https://www.linkedin.com/in/devlimatheus/">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a class="home__redes__logo" target="_blank" href="https://github.com/dev-limatheus">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </section>
+        <section class="projetos" id="projetos">
+            <h1 class="projetos__tittle">
+                Projetos
+            </h1>
+                <ul class="projetos__lista">
+                    <li class="projetos__lista__item">
+                        <h2>
+                            Flamengo's House
+                        </h2>
+                        <img class="projetos__lista__item__foto" src="src/images/Captura de tela 2026-01-05 185336.png" alt="Flamengo's House">
+                    </li>
+                    <li>
+                        Portal CS2
+                    </li>
+                    <li>
+                        Portal CS2
+                    </li>
+                </ul>
+        </section>
+
+        <section>
+            <h1>Sobre mim</h1>
+            <p>
+                Sou um desenvolvedor em transição de carreira, atualmente cursando Análise e Desenvolvimento de Sistemas e me especializando como Full Stack Java na EBAC. Meu foco principal é o desenvolvimento Frontend, onde busco unir lógica e design para criar interfaces modernas e funcionais.
+                <br> 
+                Minha stack técnica inclui HTML, CSS, JavaScript e React, além de experiência prática com ferramentas de automação e controle de versão como Gulp e Git. Acredito no aprendizado contínuo e dedico meu tempo a construir projetos que consolidem esses conhecimentos.
+                <br>
+                Fora do código, sou entusiasta de games e cultura pop, hobbies que mantêm minha criatividade ativa enquanto busco minha primeira oportunidade profissional no ecossistema de tecnologia.
+            </p>
+        </section>
+    </div>
     
 </body>
 </html>
